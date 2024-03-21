@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: "worker"
+
+server:
+  port: 9090
