@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8437758-07a8-46d2-9cf3-b31587d66ee5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/storecheckout/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/storecheckout/StoreCheckoutApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/storecheckout/api/ApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/com/storecheckout/api/StoreCheckoutApiApplicationTests.java" afterDir="false" />
+    <list default="true" id="f8437758-07a8-46d2-9cf3-b31587d66ee5" name="Changes" comment="feat: config rabbitMQ queue">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/storecheckout/facade/PaymentFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/storecheckout/facade/PaymentFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/main/java/com/storecheckout/worker/WorkerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/main/java/com/storecheckout/worker/StoreCheckoutWorkerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/test/java/com/storecheckout/worker/WorkerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/test/java/com/storecheckout/worker/StoreCheckoutWorkerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <recent name="com.storecheckout" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiApplication">
+  <component name="RunManager" selected="Spring Boot.WorkerApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="store-checkout" />
       <method v="2">
@@ -89,7 +90,7 @@
     </configuration>
     <configuration name="WorkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="worker" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.storecheckout.worker.WorkerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.storecheckout.worker.StoreCheckoutWorkerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,8 +109,44 @@
       <workItem from="1710903045572" duration="1522000" />
       <workItem from="1710979887607" duration="254000" />
       <workItem from="1710980191099" duration="102000" />
-      <workItem from="1710980333320" duration="5286000" />
+      <workItem from="1710980333320" duration="7076000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add lombook dependency">
+      <created>1710990240647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710990240647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactor: change name of spring application">
+      <created>1710990283402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710990283402</updated>
+    </task>
+    <task id="LOCAL-00003" summary="configuration files">
+      <created>1710990318002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710990318002</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: create payment controller">
+      <created>1710990353562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710990353562</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: config rabbitMQ queue">
+      <created>1710990398432</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710990398432</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,5 +162,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add lombook dependency" />
+    <MESSAGE value="refactor: change name of spring application" />
+    <MESSAGE value="configuration files" />
+    <MESSAGE value="feat: create payment controller" />
+    <MESSAGE value="feat: config rabbitMQ queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: config rabbitMQ queue" />
   </component>
 </project>
